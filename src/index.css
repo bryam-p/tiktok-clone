@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('assets/fonts/Proxima-Nova-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('assets/fonts/ProximaNova-Semibold.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('assets/fonts/Proxima-Nova-Bold.woff') format('woff2');
+  font-weight: 600;
+}
+
+:root {
+  font-family: 'Proxima Nova', Arial, Tahoma, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #eeeeee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
