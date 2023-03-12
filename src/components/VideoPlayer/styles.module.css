@@ -1,0 +1,40 @@
+video {
+    width: 100%;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.player {
+    width: 62px;
+    height: 62px;
+    background-color: transparent;
+    background-image: url(src/assets/img/player_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border: none;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.actions {
+    position: absolute;
+    bottom: 20vh;
+    right: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.action {
+    line-height: 16px;
+}

@@ -1,8 +1,6 @@
 .app {
     background-color: #000;
     height: 100vh;
-    display: grid;
-    place-content: center;
 }
 
 main {
@@ -11,4 +9,6 @@ main {
     border-radius: 3px;
     max-width: 375px;
     width: 100vw;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
